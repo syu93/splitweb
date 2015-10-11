@@ -7,28 +7,35 @@
 	<meta name="description" content="Splitweb website">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Splitweb</title>
-	<style type="text/css">
-	* {
-		padding: 0;
-		margin: 0;
-	}
-	html, body {
-		height: 100em;
-	}
-	#bg1 {
-		background: red;
-		height: 1em;
-	}
-	</style>
+	<link rel="stylesheet" type="text/css" href="src/css/style.css">
 </head>
 <body>
+	<div id="skrollr-body">
+		<div class="scene-container">
+			<div class="header"></div>
+			<div class="scene-1">
+				<div class="scene-1-bg">
+					<div class="rocket">
+						<img class=""
+						src="src/img/scene-1/rocket.png"
+						data-100="margin-top:100px; width:500px;">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="scene-container">
+			<div class="scene-2">
+				<div class="scene-2-bg"></div>
+			</div>
+		</div>
+	</div>
 	<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
 	<script type="text/javascript">
-		var s = skrollr.init({
-	    render: function(data) {
-	        document.querySelector('.scrollpos').innerHTML = data.curTop;
-		    }
-		});
+          skrollr.init({
+            smoothScrolling: true,
+            scale: 2,
+            easing: 'swing'
+          });
 	</script>
 </body>
 </html>
