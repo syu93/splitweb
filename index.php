@@ -7,13 +7,12 @@
 	<meta name="description" content="Splitweb website">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Splitweb</title>
-	<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="src/css/style.css">
+	<link rel="stylesheet" type="text/css" href="vendor/material-design-lite/material.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate.css/animate.min.css">
-	<link rel="stylesheet" type="text/css" href="vendor/pure/pure-min.css">
 </head>
 <body>
-	<div id="skrollr-body" style="min-width: 1px; position: absolute; z-index: 0; top: 0px; height: 100000;">
+	<div id="skrollr-body" style="min-width: 1px; position: absolute; z-index: 0; top: 0px;">
 		<div class="loading">
 			<div class="popup">
 				<header>
@@ -69,19 +68,16 @@
 	</div>
 	<script type="text/javascript" src="vendor/skrollr/dist/skrollr.min.js"></script>
 	<script type="text/javascript">
-		var scroller = skrollr.init({
-			smoothScrolling: true,
-			scale: 2,
-			easing: {
-		        //This easing will sure drive you crazy
-		        wtf: Math.random,
-		        inverted: function(p) {
-		            return 1 - p;
-		        }
-    		}
-		});
+
 	</script>
 	<script type="text/javascript">
+	var helper = {
+		listenAnimationEnd : function (el, callback) {
+			callback = typeof callback == 'function' ? callback : function (e){};
+			("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend".split(" ")).forEach(callback);
+		}
+	};
+
 	(function(){
 		// intro.js
 		var popup 	= document.querySelector('.loading .popup');
@@ -93,27 +89,38 @@
       	var container = document.querySelector('.container');
 
       	var btn 	= document.querySelector('[data-close-popup]');
-	      		btn.addEventListener('click', function(e){
-			      	popup.classList.remove("shake");
-			      	popup.classList.remove("infinite");
-			      	popup.style.animationDuration = "1s";
-					popup.classList.add("bounceOutRight");
-					container.style.display = "block";
-	      		},false);
+			btn.addEventListener('click', function(e){
+				popup.classList.remove("shake");
+				popup.classList.remove("infinite");
+				popup.style.animationDuration = "5s";
+			popup.classList.add("bounceOutRight");
+			container.style.display = "block";
+
+			var scroller = skrollr.init({
+				smoothScrolling: true,
+				scale: 2,
+				easing: {
+			        wtf: Math.random,
+			        inverted: function(p) {
+			            return 1 - p;
+			        }
+				}
+			});
+			},false);
 
 		var rocket 	= document.querySelector('.intro-rocket');
 			rocket.classList.add("animated");
 			rocket.classList.add("bounceInLeft");
-		("webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething".split(" ")).forEach(
-			function(e){
-		      rocket.addEventListener(e, function(el) {
-		      	rocket.classList.remove("bounceInLeft");
-		      	rocket.classList.add("pulse");
-		      	rocket.classList.add("infinite");
-		      	rocket.style.animationDuration = "3s";
-		      },false);
-	    	});
-	}(document, window));
+			console.log(rocket);
+		helper.listenAnimationEnd(rocket, function(e){
+			rocket.addEventListener(e, function(el) {
+				rocket.classList.remove("bounceInLeft");
+				rocket.classList.add("pulse");
+				rocket.classList.add("infinite");
+				rocket.style.animationDuration = "3s";
+			}); 
+		},false);
+	}(document, window, helper));
 	</script>
 </body>
 </html>
