@@ -1,0 +1,23 @@
+{
+  "name": "splitweb",
+  "version": "0.0.0",
+  "homepage": "https://github.com/syu93/splitweb",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skrollr": "~0.6.30",
+    "animate.css": "*.*",
+    "pure": "*.*"
+  }
+}
