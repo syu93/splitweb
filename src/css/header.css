@@ -1,0 +1,24 @@
+.header {
+	background: #8cc9dc;
+	height: 162px;
+	box-sizing: border-box;
+	box-shadow: 0 0 6px 1px #000000;
+}
+
+.header img.avatar {
+	width: 10%;
+	border-radius: 100%;
+	border: solid #f1f1f1 2px;
+	background: #ffffff;
+	opacity: 1;
+}
+
+.header img.avatar:hover{
+	opacity: 1!important; /* ovveride skrollr css*/
+	cursor: pointer;
+}
+
+.header-content, .header-content .title{
+	display: inline-block;
+	/*width: 100%;*/
+}

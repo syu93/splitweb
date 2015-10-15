@@ -8,36 +8,14 @@ html, body{
 	height: 100%;
 }
 
-.loading {
-	font-family: 'Amaranth', sans-serif;
-	color: #f1f1f1;
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	background: #4a4a4a url('../img/scene-1/stars.png');
+.float-left {
+	float: left;
 }
 
-.loading .popup {
-	margin: 2.5% auto;
-	width: 90%;
-	height: 90%;
-	box-shadow: 0 0 100px 1px #000000;
-}
-.loading .popup .content {
-	padding: 0 2.5% 2.5% 2.5%;
-	box-sizing: border-box;
-}
-.loading .popup header {
-	background: #8cc9dc;
+.float-right {
+	float: right;
 }
 
-.animation {
-
-}
-
-.animation .intro-rocket {
-	width: 10%;
-}
 .container {
 	width: 100%;
 	height: 100%;
@@ -47,42 +25,6 @@ html, body{
 
 .scene-container {
 	width: 100%;
-	height: 100%;
-}
-
-/*.header {
-	background: #8cc9dc;
-}*/
-
-.scene-1 {
-	height: 100%;
-}
-
-.scene-1.scene-1-bg {
-	height: 100%;
-	/*background: #4a4a4a url("../img/scene-1/stars.png")*/;
-}
-
-.scene-1 .rocket img.img-rocket {
-	width: 10%;
-	position: absolute;
-}
-.scene-1 .earth img.img-earth {
-	width: 10%;
-	position: absolute;
-	top: 20%;
-	left: 30%;
-	z-index: 1;
-}
-.scene-1 .me img.img-me {
-	width: 0%;
-	position: absolute;
-	top: 25%;
-	left: 50%;
-	z-index: 2;
-}
-
-.scene-2 {
 	height: 100%;
 }
 

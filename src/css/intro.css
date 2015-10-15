@@ -1,0 +1,28 @@
+.loading {
+	font-family: 'Amaranth', sans-serif;
+	color: #f1f1f1;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background: #4a4a4a url('../img/scene-1/stars.png');
+}
+
+.loading .popup {
+	margin: 2.5% auto;
+	width: 90%;
+	height: 90%;
+	box-shadow: 0 0 100px 1px #000000;
+}
+.loading .popup .content {
+	padding: 2.5%;
+	box-sizing: border-box;
+}
+
+.animation .intro-rocket {
+	width: 10%;
+	margin-right: 4em;
+}
+.animation .intro-earth {
+	width: 30%;
+	float: right;
+}
