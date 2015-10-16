@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="src/css/custom.animation.css">
 	<link rel="stylesheet" type="text/css" href="src/css/intro.css">
 	<link rel="stylesheet" type="text/css" href="src/css/header.css">
+	<link rel="stylesheet" type="text/css" href="src/css/modal.css">
 	<link rel="stylesheet" type="text/css" href="src/css/scene-1.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate.css/animate.min.css">
 </head>
@@ -36,12 +37,20 @@
 				data-0="height: 166px; background: rgb(53, 66, 80);"
 				data-2000="height: 50px; background: rgb(74, 74, 74);"
 			>
-				<img class="avatar" src="src/img/site/syu93.png"
-					data-0="width: 162px; background: rgb(255, 255, 255); border: solid #f1f1f1 2px; opacity: 1;"
-					data-2000="width: 46px; background: rgb(74, 74, 74); border: solid #f1f1f1 0px; opacity: 0.5;"
-				>
+				<div class="header-avatar">
+					<img class="avatar" src="src/img/site/syu93.png"
+						data-0="width: 162px; background: rgb(255, 255, 255); border: solid #f1f1f1 2px; opacity: 1;"
+						data-2000="width: 46px; background: rgb(74, 74, 74); border: solid #f1f1f1 0px; opacity: 0.5;"
+					>
+				</div>
 				<div class="header-content">
 					Splitweb
+				</div>
+				<div class="header-menu">
+					<button class="menu-button"
+						data-0="margin: 0 7px 50% 0; font-size: 4em;"
+						data-2000="margin: 0 7px 0% 0; font-size: 2em;"
+					>&#9776;</button>
 				</div>
 			</div>
 			<div class="scene-container">
@@ -49,6 +58,13 @@
 					data-1000="background: !#4a4a4a url('src/img/scene-1/stars.png');"
 					data-2000="background: !#4a4a4a url('src/img/scene-1/stars.png');"
 				>
+					<div class="modal mdl-right scroller-note"
+						data-0="opacity: 1;"
+						data-500="opacity: 0;"
+					>
+						<span class="scroll-message-arrow">&#10549;</span>
+						<span class="scroll-message-text">Scroll down to animate !</span>
+					</div>
 					<div class="rocket">
 						<img class="img-rocket animated bounceInLeft skrollable rendered"
 						src="src/img/scene-1/rocket.png"
