@@ -69,30 +69,30 @@
 }
 
 .spacesuit {
-    -webkit-animation-name: spaceman-bounce;
-    -moz-animation-name: spaceman-bounce;
-    -ms-animation-name: spaceman-bounce;
-    -o-animation-name: spaceman-bounce;
+    -webkit-animation-name: spaceman-bounce!important;
+    -moz-animation-name: spaceman-bounce!important;
+    -ms-animation-name: spaceman-bounce!important;
+    -o-animation-name: spaceman-bounce!important;
     /* animation-name:spaceman-bounce; */
-    -webkit-animation-duration: 2.5s;
-    -moz-animation-duration: 2.5s;
-    -ms-animation-duration: 2.5s;
-    -o-animation-duration: 2.5s;
-    animation-duration: 2.5s;
-    -webkit-animation-timing-function: ease-in-out;
-    -moz-animation-timing-function: ease-in-out;
-    -ms-animation-timing-function: ease-in-out;
-    -o-animation-timing-function: ease-in-out;
-    animation-timing-function: ease-in-out;
-    -webkit-animation-delay: 0.5s;
-    -moz-animation-delay: 0.5s;
-    -ms-animation-delay: 0.5s;
-    -o-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -ms-animation-iteration-count: infinite;
-    -o-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate
+    -webkit-animation-duration: 2.5s!important;
+    -moz-animation-duration: 2.5s!important;
+    -ms-animation-duration: 2.5s!important;
+    -o-animation-duration: 2.5s!important;
+    animation-duration: 2.5s!important;
+    -webkit-animation-timing-function: ease-in-out!important;
+    -moz-animation-timing-function: ease-in-out!important;
+    -ms-animation-timing-function: ease-in-out!important;
+    -o-animation-timing-function: ease-in-out!important;
+    animation-timing-function: ease-in-out!important;
+    -webkit-animation-delay: 0.5s!important;
+    -moz-animation-delay: 0.5s!important;
+    -ms-animation-delay: 0.5s!important;
+    -o-animation-delay: 0.5s!important;
+    animation-delay: 0.5s!important;
+    -webkit-animation-iteration-count: infinite!important;
+    -moz-animation-iteration-count: infinite!important;
+    -ms-animation-iteration-count: infinite!important;
+    -o-animation-iteration-count: infinite!important;
+    animation-iteration-count: infinite!important;
+    -webkit-animation-direction: alternate!important;
 }

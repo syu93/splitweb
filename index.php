@@ -17,26 +17,10 @@
 </head>
 <body>
 	<div id="skrollr-body" style="min-width: 1px; position: absolute; z-index: 0; top: 0px;">
-		<div class="loading">
-			<div class="popup">
-				<div class="content">
-					<h1> Welcome to <b>splitweb</b></h1>
-					<div class="animation">
-						<img class="intro-rocket float-left" src="src/img/scene-1/rocket.png">
-						<h1>Hi, I'm <b>Syu93</b>, a young web delevoper.<br>I love experiemeting things in web. <br>Take a look. 
-							<button class="" data-close-popup><pan>&#10148;</span>Enter my world</button>
-						</h1>
-						<img class="intro-earth"
-							src="src/img/scene-1/earth.png">
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container" style="display:none;">
+		<div class="container">
 			<div class="header"
 				data-0="height: 166px; background: rgb(53, 66, 80);"
-				data-2000="height: 50px; background: rgb(74, 74, 74);"
-			>
+				data-2000="height: 50px; background: rgb(74, 74, 74);">
 				<div class="header-avatar">
 					<img class="avatar" src="src/img/site/syu93.png"
 						data-0="width: 162px; background: rgb(255, 255, 255); border: solid #f1f1f1 2px; opacity: 1;"
@@ -48,8 +32,8 @@
 				</div>
 				<div class="header-menu">
 					<button class="menu-button"
-						data-0="margin: 0 7px 50% 0; font-size: 4em;"
-						data-2000="margin: 0 7px 0% 0; font-size: 2em;"
+						data-0="margin: 0 7px 50% 0;"
+						data-2000="margin: 0 7px 0% 0;"
 					>&#9776;</button>
 				</div>
 			</div>
@@ -60,40 +44,28 @@
 				>
 					<div class="modal mdl-right scroller-note"
 						data-0="opacity: 1;"
-						data-500="opacity: 0;"
-					>
+						data-500="opacity: 0;">
 						<span class="scroll-message-arrow">&#10549;</span>
 						<span class="scroll-message-text">Scroll down to animate !</span>
 					</div>
-					<div class="rocket">
-						<img class="img-rocket animated bounceInLeft skrollable rendered"
-						src="src/img/scene-1/rocket.png"
-						data-0="top: 30%; left: 5%; width: 4%;"
-						data-200="top: 25%; left: 10%; width: 12%"
-						data-400="top: 12%; left: 19%; width: 15%"
-						data-800="top: 30%; left: 25%; width: 20%"
-						data-1000="top: 10%; left:37%; width: 20%"
-						>
-					</div>
-					<div class="me">
-						<img class="img-me skrollable rendered"
-						src="src/img/scene-1/HAA_0058.png"
-						data-1000="top: 20%; left: 50%; width: 0%;"
-						data-1500="top: 25%; left: 40%; width: 19%;"
-						>
-					</div>
-					<div class="earth">
-						<img class="img-earth skrollable rendered"
-						src="src/img/scene-1/earth.png"
-						data-0="top: 20%; left: 30%; width: 0%;"
-						data-1000="top: 52%; left: 35%; width: 24%;"
-						>
-					</div>
-				</div>
-			</div>
-			<div class="scene-container">
-				<div class="scene-2">
-					<div class="scene-2-bg"></div>
+					<img class="img-rocket animated bounceInLeft"
+					src="src/img/scene-1/rocket.png"
+					data-0=    "top: 15%; left:  4%; width:  4%;"
+					data-200=  "top:  1%; left: 8%; width:  8%;"
+					data-400=  "top: 15%; left: 12%; width: 12%;"
+					data-800=  "top: 10%; left: 20%; width: 16%;"
+					data-1000= "top:  0%; left: 37%; width: 20%;"
+					>	
+					<img class="img-earth"
+					src="src/img/scene-1/earth.png"
+					data-0="top: 25%; left: 10%; width: 0%;"
+					data-1000="top: 50%; left: 35%; width: 24%;"
+					>
+					<img class="img-me spacesuit"
+					src="src/img/scene-1/HAA_0058.png"
+					data-1000="top: 15%; left: 50%; width: 0%;"
+					data-1500="top: 23%; left: 41%; width: 19%;"
+					>
 				</div>
 			</div>
 		</div>

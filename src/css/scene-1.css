@@ -1,5 +1,6 @@
 .scene-1 {
 	height: 100%;
+	position: relative;
 }
 
 .scene-1.scene-1-bg {
@@ -7,18 +8,19 @@
 	/*background: #4a4a4a url("../img/scene-1/stars.png")*/;
 }
 
-.scene-1 .rocket img.img-rocket {
+.scene-1 img.img-rocket {
 	width: 10%;
 	position: absolute;
+	display: inline;
 }
-.scene-1 .earth img.img-earth {
+.scene-1 img.img-earth {
 	width: 10%;
 	position: absolute;
 	top: 20%;
 	left: 30%;
 	z-index: 1;
 }
-.scene-1 .me img.img-me {
+.scene-1 img.img-me {
 	width: 0%;
 	position: absolute;
 	top: 25%;
