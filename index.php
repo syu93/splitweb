@@ -42,7 +42,7 @@
 					data-1000="background: !#4a4a4a url('src/img/scene-1/stars.png');"
 					data-2000="background: !#4a4a4a url('src/img/scene-1/stars.png');"
 				>
-					<div class="modal mdl-right scroller-note"
+					<div class="modal mdl-right"
 						data-0="opacity: 1;"
 						data-500="opacity: 0;">
 						<span class="scroll-message-arrow">&#10549;</span>
@@ -66,6 +66,13 @@
 					data-1000="top: 15%; left: 50%; width: 0%;"
 					data-1500="top: 23%; left: 41%; width: 19%;"
 					>
+					<div class="modal mdl-left-center"
+					data-0="opacity: 0;"
+					data-1400="opacity: 0;"
+					data-1500="opacity: 1;"
+					>
+						<span class="scroll-message-text">Hi, I'm Syu. A web developer</span>
+					</div>
 				</div>
 			</div>
 		</div>
