@@ -11,6 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="src/css/custom.animation.css">
 	<link rel="stylesheet" type="text/css" href="src/css/intro.css">
 	<link rel="stylesheet" type="text/css" href="src/css/header.css">
+	<link rel="stylesheet" type="text/css" href="src/css/menu.css">
 	<link rel="stylesheet" type="text/css" href="src/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="src/css/modal.css">
 	<link rel="stylesheet" type="text/css" href="src/css/scene-1.css">
@@ -41,6 +42,16 @@
 					<button class="menu-button"
 					>&#9776;</button>
 				</div>
+			</div>
+			<div class="menu-panel">
+				<div class="menu-head">
+				</div>
+				<ul class="app-menu">
+					<li>Menu1</li>
+					<li>Menu2</li>
+					<li>Menu3</li>
+					<li>Menu4</li>
+				</ul>
 			</div>
 			<div class="scene-container">
 				<div class="scene-1"

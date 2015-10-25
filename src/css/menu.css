@@ -1,0 +1,41 @@
+.container.menu-open {
+	left: -15%;
+}
+
+.menu-panel {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 0px;
+	height: 100%;
+	background: #3e464c;
+	box-sizing: border-box;
+	padding: 0px;
+
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    transition-delay: .5s;
+    -webkit-transition-delay: .5s;
+}
+
+.menu-panel.menu-open {
+	width: 15%;
+	padding: 15px;
+}
+
+.menu-panel .menu-head {
+	width: 100%;
+	height: 50px;
+}
+
+.menu-panel .app-menu {
+	list-style: none;
+	width: 100%;
+	height: 100%;
+}
+
+.menu-panel .app-menu li{
+	text-decoration: none;	
+}

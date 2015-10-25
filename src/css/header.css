@@ -2,7 +2,6 @@
 	background: #8cc9dc;
 	height: 162px;
 	box-sizing: border-box;
-	box-shadow: 0 0 6px 1px #000000;
 
     display: -webkit-box;
     display: -moz-box;
@@ -127,10 +126,6 @@
     border: 1px solid transparent;
     outline:none;
     margin: 5px .5em 5px .5em;
-}
-.header-menu .menu-button:active {
-    zoom: 105%;
-    
 }
 
 .menu-button:hover {
