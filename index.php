@@ -11,10 +11,13 @@
 	<link rel="stylesheet" type="text/css" href="src/css/custom.animation.css">
 	<link rel="stylesheet" type="text/css" href="src/css/intro.css">
 	<link rel="stylesheet" type="text/css" href="src/css/header.css">
+	<link rel="stylesheet" type="text/css" href="src/css/footer.css">
 	<link rel="stylesheet" type="text/css" href="src/css/modal.css">
 	<link rel="stylesheet" type="text/css" href="src/css/scene-1.css">
 	<link rel="stylesheet" type="text/css" href="vendor/animate.css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/font-awesome.min.css">
+
+	<link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
 </head>
 <body>
 	<div id="skrollr-body" style="min-width: 1px; position: absolute; z-index: 0; top: 0px;">
@@ -68,22 +71,26 @@
 					data-1000="top: 15%; left: 50%; width: 0%;"
 					data-1500="top: 23%; left: 41%; width: 19%;"
 					>
-					<div class="modal presentation"
+					<div class="presentation perspective"
 					data-0="opacity: 0;"
 					data-1300="opacity: 0;"
 					data-1500="opacity: 1;"
 					>
-						<p>Hi, my name is <b>Hervé "<i>Syu</i>" Tutuaku</b>.</p>
-						<p>I'm a frech web developer based in Paris.</p>
-						<br>
-						<p>I love building web applications and websites as well.</p>
-						<p><a href="//splitweb.fr">Splitweb.fr</a> is the organization under which I made public my personal projects. Feel free to check it out.</p>
-						<p>I'm still in engineer school but, I'm already really interested by open-source projects. You can also check out the <a href="//pinnackl.com">Pinnackl Project</a>.</p>
+						<div class="modal start-wars-text">
+							<p>Hi, my name is <b>Hervé "<i>Syu</i>" Tutuaku</b>.</p>
+							<p>I'm a french web developer based in Paris.</p>
+							<br>
+							<p>I love building web applications and websites as well.</p>
+							<p><a href="//splitweb.fr">Splitweb.fr</a> is the organization under which I made public my <a href="//splitweb.fr/projects">personal projects</a>. Feel free to check it out.</p>
+							<p>I'm still in engineer school but, I'm already really interested by open-source projects. You can also check out the <a href="//pinnackl.com">Pinnackl Project</a>.</p>
+						</div>
 					</div>
 				</div>
+			</div>
+			<div class="footer">
 				<div class="social-media">
-					<span class="media"><a href="https://twitter.com/BlackRevDrumer"><i class="fa fa-twitter"></i>Twitter</a></span>
 					<span class="media"><a href="https://github.com/splitweb"><i class="fa fa-github"></i></i>Github</a></span>
+					<span class="media"><a href="https://twitter.com/BlackRevDrumer"><i class="fa fa-twitter"></i>Twitter</a></span>
 				</div>
 			</div>
 		</div>

@@ -8,6 +8,9 @@ html, body{
 	height: 100%;
 }
 
+body {
+	font-family: 'Amaranth', sans-serif;
+}
 .float-left {
 	float: left;
 }
@@ -21,6 +24,17 @@ html, body{
 	height: 100%;
 	position: fixed;
 	background: #354250;
+	box-sizing: content-box;
+}
+
+.perspective {
+   -webkit-perspective: 500px; /* Chrome, Safari, Opera */
+    perspective: 500px;
+}
+
+.perspective .start-wars-text {
+    -webkit-transform: rotateX(23deg); /* Chrome, Safari, Opera  */
+    transform: rotateX(23deg);
 }
 
 .scene-container {

@@ -136,35 +136,3 @@
 .menu-button:hover {
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.1);
 }
-
-/**
- * hover header bottom
- */
-
-.social-media {
-    background: #4a4a4a;
-    color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: 10;
-    text-align: right;
-    height: 30px;
-    line-height: 30px;
-    margin: 15px;
-}
-
-.social-media a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.social-media i {
-    color: #7f8c8d;
-    font-size: 1.5em;
-    margin-right: 5px;
-}
-
-.social-media .media {
-    margin-right: 1em;
-}
